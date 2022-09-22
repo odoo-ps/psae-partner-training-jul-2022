@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['sale', 'stock'],
+    'depends': ['sale', 'stock', 'sales_team'],
 
     # always loaded
     'data': [
@@ -29,6 +29,7 @@
         'views/sale_order_views.xml',
         'views/stock_picking_type_views.xml',
         'data/actions.xml',
+        'data/res_groups.xml',
         'reports/partner_list_views.xml',
     ],
     # only loaded in demonstration mode
