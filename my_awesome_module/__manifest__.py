@@ -24,6 +24,7 @@
 
     # always loaded
     'data': [
+        'data/ir_rule.xml',
         'data/res_groups.xml',
         'views/res_partner_views.xml',
         'views/product_views.xml',
